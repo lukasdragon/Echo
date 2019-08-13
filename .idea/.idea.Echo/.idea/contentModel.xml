@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\lukas\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\lukas\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Echo.-959942161.00" t="ExcludeRecursive" />
+    <e p="C:\Users\lukas\Projects\Echo" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="CharacterController1.cs" t="Include" />
+          <e p="PlayerController" t="Include">
+            <e p="FirstPersonController.cs" t="Include" />
+            <e p="flashlight.cs" t="Include" />
+            <e p="MouseCameraController.cs" t="Include" />
+          </e>
+          <e p="ScriptableObject Utils" t="Include">
+            <e p="Attributes" t="Include">
+              <e p="SearchableEnumAttribute.cs" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="EventEditor.cs" t="Include" />
+              <e p="FloatReferenceDrawer.cs" t="Include" />
+              <e p="IntReferenceDrawer.cs" t="Include" />
+              <e p="SearchableEnumDrawer.cs" t="Include" />
+              <e p="SearchablePopup.cs" t="Include" />
+            </e>
+            <e p="FloatReference.cs" t="Include" />
+            <e p="FloatVariable.cs" t="Include" />
+            <e p="GameEvent.cs" t="Include" />
+            <e p="GameEventListener.cs" t="Include" />
+            <e p="IntReference.cs" t="Include" />
+            <e p="IntVariable.cs" t="Include" />
+            <e p="RuntimeSet.cs" t="Include" />
+            <e p="StringVariable.cs" t="Include" />
+          </e>
+          <e p="VignetteScaleScript.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Echo.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
