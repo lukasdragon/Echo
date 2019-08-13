@@ -11,7 +11,7 @@ public class CharacterController1 : MonoBehaviour
 
     private Rigidbody _rb;
     private Vector3 _currentMomentum;
-    private Image _vignette;
+ //   private Image _vignette;
 
     private AudioSource _audioSource;
     private bool _isInvokingStaminaRegen;
@@ -23,7 +23,7 @@ public class CharacterController1 : MonoBehaviour
         _audioSource = gameObject.GetComponent<AudioSource>();
         runMultiplier = 1;
         _rb = gameObject.GetComponent<Rigidbody>();
-        _vignette = GameObject.Find("Vignette").GetComponent<Image>();
+  //      _vignette = GameObject.Find("Vignette").GetComponent<Image>();
     }
 
     private void RegenerateStamina()
@@ -51,7 +51,7 @@ public class CharacterController1 : MonoBehaviour
         }
 
 
-        _vignette.color = new Color(255, 255, 255, 50f / 50 - stamina / 50);
+    //    _vignette.color = new Color(255, 255, 255, 50f / 50 - stamina / 50);
 
         if (runMultiplier == 1)
         {

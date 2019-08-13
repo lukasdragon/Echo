@@ -3926,6 +3926,75 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &1310040093
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3723517415346083866, guid: d47523f8d22078147b6c96b1f03bc8ee,
+        type: 3}
+      propertyPath: m_Name
+      value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723517415346083865, guid: d47523f8d22078147b6c96b1f03bc8ee,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.513811
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723517415346083865, guid: d47523f8d22078147b6c96b1f03bc8ee,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 14.781929
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723517415346083865, guid: d47523f8d22078147b6c96b1f03bc8ee,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.49713707
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723517415346083865, guid: d47523f8d22078147b6c96b1f03bc8ee,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723517415346083865, guid: d47523f8d22078147b6c96b1f03bc8ee,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723517415346083865, guid: d47523f8d22078147b6c96b1f03bc8ee,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723517415346083865, guid: d47523f8d22078147b6c96b1f03bc8ee,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723517415346083865, guid: d47523f8d22078147b6c96b1f03bc8ee,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723517415346083865, guid: d47523f8d22078147b6c96b1f03bc8ee,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723517415346083865, guid: d47523f8d22078147b6c96b1f03bc8ee,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723517415346083865, guid: d47523f8d22078147b6c96b1f03bc8ee,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d47523f8d22078147b6c96b1f03bc8ee, type: 3}
 --- !u!1001 &1515145165
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4060,6 +4129,7 @@ GameObject:
   - component: {fileID: 1954839539}
   - component: {fileID: 1954839538}
   - component: {fileID: 1954839537}
+  - component: {fileID: 1954839541}
   m_Layer: 0
   m_Name: Area Light
   m_TagString: Untagged
@@ -4148,7 +4218,7 @@ MonoBehaviour:
   useVolumetric: 1
   featuresFoldout: 1
   showAdditionalSettings: 0
-  displayLightIntensity: 80
+  displayLightIntensity: 200
   displayAreaLightEmissiveMesh: 0
   areaLightCookie: {fileID: 0}
   areaLightShadowCone: 120
@@ -4179,7 +4249,7 @@ Light:
   serializedVersion: 9
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 6.3661976
+  m_Intensity: 15.915494
   m_Range: 10
   m_SpotAngle: 110.18007
   m_InnerSpotAngle: 21.80208
@@ -4218,7 +4288,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -4242,3 +4312,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1954839541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954839536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25c8f094861093438baf3d63e3aa767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minTime: 0.05
+  maxTime: 1.2
