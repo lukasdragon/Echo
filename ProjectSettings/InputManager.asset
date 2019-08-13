@@ -185,7 +185,7 @@ InputManager:
     m_Name: flashlight
     descriptiveName: 
     descriptiveNegativeName: 
-    negativeButton: f
+    negativeButton: 
     positiveButton: f
     altNegativeButton: 
     altPositiveButton: 

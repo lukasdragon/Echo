@@ -12,6 +12,7 @@ public class CharacterController1 : MonoBehaviour
     private Rigidbody _rb;
     private Vector3 _currentMomentum;
     private Image _vignette;
+    private Vector3 _rbClone;
 
     private AudioSource _audioSource;
     private bool _isInvokingStaminaRegen;
@@ -19,7 +20,7 @@ public class CharacterController1 : MonoBehaviour
 
     private void Start()
     {
-        footstepQuota = 50;
+        footstepQuota = 75;
         _audioSource = gameObject.GetComponent<AudioSource>();
         runMultiplier = 1;
         _rb = gameObject.GetComponent<Rigidbody>();
@@ -41,32 +42,24 @@ public class CharacterController1 : MonoBehaviour
             _isInvokingStaminaRegen = false;
         }
     }
-<<<<<<< Updated upstream
 
     private void FixedUpdate()
     {
+         _rbClone = _rb.velocity;
+        if (_rbClone.x < 0){
+            _rbClone.x *= -1;
+        }
+        if (_rbClone.z < 0){
+            _rbClone.z *= -1;
+        }
+                if(_rbClone.z >= _rbClone.x){
+                    footstepQuota -= _rbClone.z;
+                }else{
+                    footstepQuota -= _rbClone.x;
+                }
         if (footstepQuota <= 0)
         {
-=======
-    // Update is called once per frame
-    void FixedUpdate()
-    {  
-
-        rigidbodyClone = rigidbody.velocity;
-        if (rigidbodyClone.x < 0){
-            rigidbodyClone.x *= -1;
-        }
-        if (rigidbodyClone.z < 0){
-            rigidbodyClone.z *= -1;
-        }
-                if(rigidbodyClone.z >= rigidbodyClone.x){
-                    footstepQuota -= rigidbodyClone.z;
-                }else{
-                    footstepQuota -= rigidbodyClone.x;
-                }
-                if(footstepQuota <= 0){
->>>>>>> Stashed changes
-            footstepQuota = 50;
+            footstepQuota = 75;
             _audioSource.Play();
         }
 

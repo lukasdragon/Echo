@@ -6,11 +6,14 @@ using UnityEngine;
 public class flashlight : MonoBehaviour
 {
     [SerializeField] private Light fLight;
+    [SerializeField] private AudioSource aSource;
 
 
     private void Update()
     {
-        if (Input.GetButtonDown("flashlight"))
+        if (Input.GetButtonDown("flashlight")){
+        aSource.Play();
             fLight.enabled = !fLight.enabled;
     }
+}
 }
