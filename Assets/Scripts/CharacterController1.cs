@@ -41,11 +41,31 @@ public class CharacterController1 : MonoBehaviour
             _isInvokingStaminaRegen = false;
         }
     }
+<<<<<<< Updated upstream
 
     private void FixedUpdate()
     {
         if (footstepQuota <= 0)
         {
+=======
+    // Update is called once per frame
+    void FixedUpdate()
+    {  
+
+        rigidbodyClone = rigidbody.velocity;
+        if (rigidbodyClone.x < 0){
+            rigidbodyClone.x *= -1;
+        }
+        if (rigidbodyClone.z < 0){
+            rigidbodyClone.z *= -1;
+        }
+                if(rigidbodyClone.z >= rigidbodyClone.x){
+                    footstepQuota -= rigidbodyClone.z;
+                }else{
+                    footstepQuota -= rigidbodyClone.x;
+                }
+                if(footstepQuota <= 0){
+>>>>>>> Stashed changes
             footstepQuota = 50;
             _audioSource.Play();
         }
