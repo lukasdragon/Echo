@@ -8,6 +8,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="CharacterController1.cs" t="Include" />
           <e p="PlayerController" t="Include">
             <e p="FirstPersonController.cs" t="Include" />
             <e p="flashlight.cs" t="Include" />
@@ -33,6 +34,7 @@
             <e p="RuntimeSet.cs" t="Include" />
             <e p="StringVariable.cs" t="Include" />
           </e>
+          <e p="VignetteScaleScript.cs" t="Include" />
         </e>
       </e>
       <e p="Echo.sln" t="IncludeFlat" />
