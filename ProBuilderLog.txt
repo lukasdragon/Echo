@@ -1,0 +1,24 @@
+Triangulation failed: Additional vertices were inserted.
+Points not ordered correctly
+Triangulation failed: System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.ProBuilder.Poly2Tri.DTSweep.NewFrontTriangle (UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node) [0x00001] in C:\Users\lukas\Projects\Echo\Library\PackageCache\com.unity.probuilder@4.1.0\External\Poly2Tri\Triangulation\Delaunay\Sweep\DTSweep.cs:232 
+  at UnityEngine.ProBuilder.Poly2Tri.DTSweep.PointEvent (UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point) [0x00020] in C:\Users\lukas\Projects\Echo\Library\PackageCache\com.unity.probuilder@4.1.0\External\Poly2Tri\Triangulation\Delaunay\Sweep\DTSweep.cs:213 
+  at UnityEngine.ProBuilder.Poly2Tri.DTSweep.Sweep (UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx) [0x00018] in C:\Users\lukas\Projects\Echo\Library\PackageCache\com.unity.probuilder@4.1.0\External\Poly2Tri\Triangulation\Delaunay\Sweep\DTSweep.cs:101 
+  at UnityEngine.ProBuilder.Poly2Tri.DTSweep.Triangulate (UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx) [0x00008] in C:\Users\lukas\Projects\Echo\Library\PackageCache\com.unity.probuilder@4.1.0\External\Poly2Tri\Triangulation\Delaunay\Sweep\DTSweep.cs:64 
+  at UnityEngine.ProBuilder.Poly2Tri.P2T.Triangulate (UnityEngine.ProBuilder.Poly2Tri.TriangulationContext tcx) [0x0000d] in C:\Users\lukas\Projects\Echo\Library\PackageCache\com.unity.probuilder@4.1.0\External\Poly2Tri\P2T.cs:79 
+  at UnityEngine.ProBuilder.Poly2Tri.P2T.Triangulate (UnityEngine.ProBuilder.Poly2Tri.TriangulationAlgorithm algorithm, UnityEngine.ProBuilder.Poly2Tri.Triangulatable t) [0x00010] in C:\Users\lukas\Projects\Echo\Library\PackageCache\com.unity.probuilder@4.1.0\External\Poly2Tri\P2T.cs:71 
+  at UnityEngine.ProBuilder.MeshOperations.Triangulation.Triangulate (System.Collections.Generic.IList`1[T] points, System.Collections.Generic.List`1[System.Int32]& indexes, System.Boolean convex) [0x00053] in C:\Users\lukas\Projects\Echo\Library\PackageCache\com.unity.probuilder@4.1.0\Runtime\MeshOperations\Triangulation.cs:100 
+Triangulation failed: System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.ProBuilder.Poly2Tri.DTSweep.NewFrontTriangle (UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node) [0x00001] in C:\Users\lukas\Projects\Echo\Library\PackageCache\com.unity.probuilder@4.1.0\External\Poly2Tri\Triangulation\Delaunay\Sweep\DTSweep.cs:232 
+  at UnityEngine.ProBuilder.Poly2Tri.DTSweep.PointEvent (UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point) [0x00020] in C:\Users\lukas\Projects\Echo\Library\PackageCache\com.unity.probuilder@4.1.0\External\Poly2Tri\Triangulation\Delaunay\Sweep\DTSweep.cs:213 
+  at UnityEngine.ProBuilder.Poly2Tri.DTSweep.Sweep (UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx) [0x00018] in C:\Users\lukas\Projects\Echo\Library\PackageCache\com.unity.probuilder@4.1.0\External\Poly2Tri\Triangulation\Delaunay\Sweep\DTSweep.cs:101 
+  at UnityEngine.ProBuilder.Poly2Tri.DTSweep.Triangulate (UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx) [0x00008] in C:\Users\lukas\Projects\Echo\Library\PackageCache\com.unity.probuilder@4.1.0\External\Poly2Tri\Triangulation\Delaunay\Sweep\DTSweep.cs:64 
+  at UnityEngine.ProBuilder.Poly2Tri.P2T.Triangulate (UnityEngine.ProBuilder.Poly2Tri.TriangulationContext tcx) [0x0000d] in C:\Users\lukas\Projects\Echo\Library\PackageCache\com.unity.probuilder@4.1.0\External\Poly2Tri\P2T.cs:79 
+  at UnityEngine.ProBuilder.Poly2Tri.P2T.Triangulate (UnityEngine.ProBuilder.Poly2Tri.TriangulationAlgorithm algorithm, UnityEngine.ProBuilder.Poly2Tri.Triangulatable t) [0x00010] in C:\Users\lukas\Projects\Echo\Library\PackageCache\com.unity.probuilder@4.1.0\External\Poly2Tri\P2T.cs:71 
+  at UnityEngine.ProBuilder.MeshOperations.Triangulation.Triangulate (System.Collections.Generic.IList`1[T] points, System.Collections.Generic.List`1[System.Int32]& indexes, System.Boolean convex) [0x00053] in C:\Users\lukas\Projects\Echo\Library\PackageCache\com.unity.probuilder@4.1.0\Runtime\MeshOperations\Triangulation.cs:100 
+Triangulation failed: Additional vertices were inserted.
+Points not ordered correctly
+Triangulation failed: Additional vertices were inserted.
+Points not ordered correctly
+Triangulation failed: Additional vertices were inserted.
+Points not ordered correctly

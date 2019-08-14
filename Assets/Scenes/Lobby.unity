@@ -2900,53 +2900,9 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_IsSelectable: 1
-  m_SelectedFaces: 1b000000
-  m_SelectedEdges:
-  - a: 196
-    b: 197
-  - a: 197
-    b: 203
-  - a: 203
-    b: 204
-  - a: 204
-    b: 205
-  - a: 201
-    b: 202
-  - a: 195
-    b: 196
-  - a: 202
-    b: 195
-  - a: 219
-    b: 220
-  - a: 207
-    b: 219
-  - a: 205
-    b: 207
-  - a: 208
-    b: 201
-  - a: 211
-    b: 208
-  - a: 212
-    b: 211
-  - a: 218
-    b: 212
-  - a: 225
-    b: 218
-  - a: 230
-    b: 225
-  - a: 229
-    b: 230
-  - a: 228
-    b: 229
-  - a: 223
-    b: 222
-  - a: 222
-    b: 228
-  - a: 221
-    b: 223
-  - a: 220
-    b: 221
-  m_SelectedVertices: c4000000c5000000c6000000c7000000cb000000cc000000cd000000ce000000c8000000ca000000c9000000c3000000d1000000d2000000d5000000d6000000d7000000d8000000db000000dc000000cf000000d0000000d3000000d4000000d9000000da000000e0000000e1000000e5000000e6000000e3000000e4000000df000000de000000e2000000dd000000
+  m_SelectedFaces: 
+  m_SelectedEdges: []
+  m_SelectedVertices: 
 --- !u!23 &212347954
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3078,7 +3034,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh22966
+  m_Name: pb_Mesh22978
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
