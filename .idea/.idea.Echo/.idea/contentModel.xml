@@ -9,6 +9,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CharacterController1.cs" t="Include" />
+          <e p="LightFlickerEffect.cs" t="Include" />
           <e p="PlayerController" t="Include">
             <e p="FirstPersonController.cs" t="Include" />
             <e p="flashlight.cs" t="Include" />
