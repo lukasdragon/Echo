@@ -20,11 +20,12 @@ public class Door : MonoBehaviour
     private float endingY;
     [SerializeField]
     private float currentY;
+    [SerializeField]
+    private Quaternion currentRotation;
     static float t = 0.0f;
     // Start is called before the first frame update
     void Start()
     {
-        isOpen = true;
         _cameraController = GameObject.Find("CameraTransform");
     }
 
@@ -44,7 +45,7 @@ public class Door : MonoBehaviour
                 endingRotation = startingRotation;
                 endingRotation.y = startingRotation.y + 90;
                 currentY = Mathf.Lerp(startingY,endingY, t);
-                transform.rotation = Quaternion.Euler(0, currentY-transform.rotation.y,0);
+                transform.rotation = Quaternion.RotateTowards(transform.rotation, new Quaternion(1,transform.rotation.x,currentY,transform.rotation.z),0.1f);
                t += 0.5f * Time.deltaTime;
             }else{
                 if(currentY == endingY){
@@ -52,8 +53,8 @@ public class Door : MonoBehaviour
                  isMoving = false;
                     }
                endingRotation = startingRotation;
-                endingRotation.y = startingRotation.y - 90;
-                currentY = Mathf.Lerp(startingY,endingY, t);
+                endingY = startingY - 90;
+                currentY = Mathf.Lerp(startingY * 360,endingY * 360, t);
                 transform.rotation = Quaternion.Euler(0, currentY+transform.rotation.y,0);
                t += 0.5f * Time.deltaTime;
                 
@@ -68,7 +69,7 @@ public class Door : MonoBehaviour
             if(!isMoving){
             if(Vector3.Distance(gameObject.transform.position, _cameraController.transform.position) < 3){
                 t=0.0f;
-                startingY = 90;
+                startingY = transform.rotation.y * 128;
                 isMoving = true;            
             }
             }
