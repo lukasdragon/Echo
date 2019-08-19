@@ -18,6 +18,8 @@ public class MouseCameraController : MonoBehaviour
     private void Start()
     {
         character = transform.parent.gameObject;
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = false;
     }
 
 
