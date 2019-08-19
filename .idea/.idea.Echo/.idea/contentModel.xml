@@ -7,12 +7,34 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Samples" t="Include">
+          <e p="ProBuilder" t="Include">
+            <e p="4.1.0" t="Include">
+              <e p="Editor Examples" t="Include">
+                <e p="ClearUnusedAttributes.cs" t="Include" />
+                <e p="CreateShadowObject.cs" t="Include" />
+                <e p="CustomAction.cs" t="Include" />
+                <e p="EditorCallbackViewer.cs" t="Include" />
+                <e p="RenameNewObjects.cs" t="Include" />
+                <e p="SetCustomUnwrapParams.cs" t="Include" />
+                <e p="Unity.ProBuilder.Examples.Editor.asmdef" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
+          <e p="BlinkingLight.cs" t="Include" />
           <e p="CharacterController1.cs" t="Include" />
+          <e p="LightFlickerEffect.cs" t="Include" />
+          <e p="MaskMaker.cs" t="Include" />
           <e p="PlayerController" t="Include">
             <e p="FirstPersonController.cs" t="Include" />
             <e p="flashlight.cs" t="Include" />
             <e p="MouseCameraController.cs" t="Include" />
+          </e>
+          <e p="Puzzles" t="Include">
+            <e p="Puzzle1Controller.cs" t="Include" />
+            <e p="Puzzle1Script.cs" t="Include" />
           </e>
           <e p="ScriptableObject Utils" t="Include">
             <e p="Attributes" t="Include">
@@ -41,6 +63,7 @@
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Unity.ProBuilder.Examples.Editor.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>
